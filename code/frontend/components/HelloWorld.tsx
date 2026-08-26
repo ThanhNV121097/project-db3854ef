@@ -5,9 +5,11 @@ import styles from './HelloWorld.module.css';
 
 export function HelloWorldPage() {
   useEffect(() => {
+    const previous = document.body.style.backgroundColor;
     document.body.style.backgroundColor = 'var(--color-bg)';
+
     return () => {
-      document.body.style.backgroundColor = '';
+      document.body.style.backgroundColor = previous;
     };
   }, []);
 
