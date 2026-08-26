@@ -5,28 +5,12 @@
   padding: var(--space-8) var(--space-5);
 }
 
-.helloWorldCard {
-  width: min(760px, 100%);
-  text-align: center;
-  padding: var(--space-8) var(--space-6);
-  background: var(--color-surface);
-  border: var(--border-width) solid var(--color-border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-}
-
 .helloWorldTitle {
   margin: 0;
   color: var(--color-text);
   font-size: var(--text-3xl);
-  line-height: 0.95;
-  font-weight: 700;
-}
-
-@media (max-width: 480px) {
-  .helloWorldCard {
-    border-radius: var(--radius-md);
-    padding-inline: var(--space-5);
-  }
+  line-height: var(--line-3xl);
+  font-weight: var(--font-bold);
+  text-align: center;
 }
 
