@@ -5,6 +5,10 @@
   padding: var(--space-8) var(--space-5);
 }
 
+:global(body) {
+  background-color: var(--color-bg);
+}
+
 .helloWorldTitle {
   margin: 0;
   color: var(--color-text);
