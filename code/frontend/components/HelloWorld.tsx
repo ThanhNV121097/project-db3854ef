@@ -1,16 +1,14 @@
 "use client";
 
-import { useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './HelloWorld.module.css';
 
 export function HelloWorldPage() {
-  useLayoutEffect(() => {
-    const { body } = document;
-    const previousBackgroundColor = body.style.backgroundColor;
-    body.style.backgroundColor = '#f8fafc';
+  useEffect(() => {
+    document.body.dataset.page = 'hello-world';
 
     return () => {
-      body.style.backgroundColor = previousBackgroundColor;
+      delete document.body.dataset.page;
     };
   }, []);
 
