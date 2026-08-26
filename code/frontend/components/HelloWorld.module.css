@@ -6,7 +6,8 @@
 }
 
 :global(body) {
-  background: var(--color-bg);
+  background-color: var(--color-bg) !important;
+  background-image: none !important;
 }
 
 .helloWorldTitle {
