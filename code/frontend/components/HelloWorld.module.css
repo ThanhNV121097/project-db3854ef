@@ -1,3 +1,10 @@
+.helloWorldShell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: var(--space-8) var(--space-5);
+}
+
 .helloWorldCard {
   width: 100%;
   text-align: center;
