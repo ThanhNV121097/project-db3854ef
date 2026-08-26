@@ -1,8 +1,9 @@
+import styles from '../components/HelloWorld.module.css';
 import { HelloWorldPage } from '../components/HelloWorld';
 
 export default function Home() {
   return (
-    <main style={{ backgroundColor: 'var(--color-bg)' }}>
+    <main className={styles.helloWorldShell}>
       <HelloWorldPage />
     </main>
   );
