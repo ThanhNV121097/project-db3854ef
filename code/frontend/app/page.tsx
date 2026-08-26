@@ -1,7 +1,5 @@
+import { HelloWorldPage } from '../components/HelloWorld';
+
 export default function Home() {
-  return (
-    <main className="page-shell">
-      {/* Story components mount here. */}
-    </main>
-  );
+  return <HelloWorldPage />;
 }
