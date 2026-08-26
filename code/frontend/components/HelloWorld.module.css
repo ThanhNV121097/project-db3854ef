@@ -1,12 +1,11 @@
 .helloWorldCard {
-  width: min(760px, 100%);
-  padding: clamp(var(--space-8), 7vw, var(--space-18)) var(--space-6);
+  width: 100%;
   text-align: center;
-  background: rgba(255, 255, 255, 0.82);
-  border: var(--border-width) solid rgba(226, 232, 240, 0.9);
+  padding: var(--space-8) var(--space-6);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
-  backdrop-filter: blur(10px);
 }
 
 .helloWorldEyebrow {
@@ -24,8 +23,8 @@
 }
 
 .helloWorldDot {
-  width: 10px;
-  height: 10px;
+  width: var(--space-2);
+  height: var(--space-2);
   border-radius: var(--radius-full);
   background: var(--color-primary);
   box-shadow: var(--shadow-lg);
@@ -54,3 +53,4 @@
     padding-inline: var(--space-5);
   }
 }
+
