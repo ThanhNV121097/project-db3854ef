@@ -1,5 +1,9 @@
 import { HelloWorldPage } from '../components/HelloWorld';
 
 export default function Home() {
-  return <HelloWorldPage />;
+  return (
+    <main style={{ backgroundColor: 'var(--color-bg)' }}>
+      <HelloWorldPage />
+    </main>
+  );
 }
