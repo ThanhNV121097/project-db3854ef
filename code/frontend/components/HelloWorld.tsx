@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import styles from './HelloWorld.module.css';
 
 export function HelloWorldPage() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     const { body } = document;
     const previousBackgroundColor = body.style.backgroundColor;
-    body.style.backgroundColor = 'var(--color-bg)';
+    body.style.backgroundColor = '#f8fafc';
 
     return () => {
       body.style.backgroundColor = previousBackgroundColor;
