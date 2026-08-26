@@ -3,11 +3,12 @@
   display: grid;
   place-items: center;
   padding: var(--space-8) var(--space-5);
+  background-color: var(--color-bg);
 }
 
 :global(body) {
   min-height: 100vh;
-  background-color: var(--color-bg) !important;
+  margin: 0;
 }
 
 .helloWorldTitle {
