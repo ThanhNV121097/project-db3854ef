@@ -5,9 +5,9 @@
   padding: var(--space-8) var(--space-5);
 }
 
+:global(html),
 :global(body) {
   background-color: var(--color-bg) !important;
-  background-image: none !important;
 }
 
 .helloWorldTitle {
